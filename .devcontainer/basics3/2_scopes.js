@@ -18,8 +18,8 @@ function one(){
     const username = "spiderman"
 
     function two(){
-        const website ="youtube"
-        console.log(username);
+        const website =" marvel"
+        // console.log(username);
     }
     // console.log(website);
 
@@ -29,3 +29,30 @@ function one(){
 
 one()
 
+if (true){
+    const username = "spiderman"
+    if(username === "spiderman"){
+        const website = " marvel"
+        // console.log(username + website);
+    }
+    // console.log(website);
+}
+
+// console.log(username)
+
+
+// +++++++++++++++++++interesting+++++++++++++++++++
+
+
+console.log(addone(5))
+
+function addone(num){
+    return num+1
+}
+
+
+
+(addTwo(5))
+const addTwo = function(num){
+    return num + 2
+}
