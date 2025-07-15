@@ -1,13 +1,13 @@
 // for
-for (let i = 0; i <= 10; i++) {
-    const element = i;
-    if (element == 5){
+//for (let i = 0; i <= 10; i++) {
+//    const element = i;
+   // if (element == 5){
         // console.log("5 is the worst number")
-    }
+  //  }
     // console.log(element);
 
 
-}
+//}
 
 // console.log(element);          // this is not defined outside the element 
 
@@ -19,19 +19,31 @@ for (let i = 1; i <= 10; i++) {
     }
     
 }
-let myArray = ["spiderman","thor","superman"]
+//let myArray = ["spiderman","thor","superman"]
 // console.log(myArray.length)
-for (let index = 0; index < myArray.length; index) {
-    const element = myArray[index];
+//for (let index = 0; index < myArray.length; index) {
+//    const element = myArray[index];
     // console.log(element);
     
-}
-
 
 //Break and Continue
 
 
+
+// for (let index = 1; index <= 20; index++) {
+//     if (index == 5){
+//         console.log(`Detected 5`);
+//         break
+//     }
+//     console.log(`Value of i is ${index}`);
+    
+// }
+
 for (let index = 1; index <= 20; index++) {
-    console.log(`value of i is${i}`);
+    if (index == 5){
+        console.log(`Detected 5`);
+        continue
+    }
+    console.log(`Value of i is ${index}`);
     
 }
