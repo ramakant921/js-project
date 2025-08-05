@@ -23,3 +23,8 @@ class Teacher extends User {
 const spodormon  = new Teacher("spodormon", "spodormon@example.com", "securepassword");
 
 spodormon.addCourse()
+const coffee = new User("coffee");
+
+coffee.logMe()
+
+console.log(spodormon  instanceof User);
